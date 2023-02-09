@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+.logoTT {
+    border-color: burlywood;
+    border-style:solid;
+}
+.navbar-brand {
+    padding-left: 5px;
+    font-weight: 50;
+    font-style: oblique;
+    font-size: medium;
+    color:brown
+}
+.landing {
+    background-image: url(../assets/autumn_texture_by_ktvl_resources_d49tmia.jpg);
+    height: 100vh;
+    background-repeat:repeat;
+}
+.welcoming {
+    --interval: 1s;
+    display: block;
+    text-shadow: 
+      0 0 10px var(--color1),
+      0 0 20px var(--color2),
+      0 0 40px var(--color3),
+      0 0 80px var(--color4);
+    will-change: filter, color;
+    filter: saturate(60%);
+    animation: flicker steps(100) var(--interval) 1s infinite;
+    color: lightpink;
+    --color1: pink;
+    --color2: orangered;
+    --color3: red;
+    --color4: magenta;
+}
+.tarot_fondo {
+    background-image: url(../assets/tarot.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+.runas_fondo {
+    background-image: url(../assets/runas.webp);
+    height: 100vh;
+    background-size: cover;
+}
+.regre_fondo {
+    background-image: url(../assets/regresiones.jpeg);
+    height: 100vh;
+    background-size: cover;
+}
+.cuencos_fondo {
+    background-image: url(../assets/cuencos.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+.detalle {
+    max-width: 50%;
+}
